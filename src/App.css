@@ -1,21 +1,34 @@
-.heading {
+.allContents {
+  padding: 30px;
+}
+.headerClass {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
 }
-
-.inputData {
-  align-items: center;
-}
-
-.buttonClass {
-  text-align: center;
-  border-radius: 0px;
-  height: 15px;
-}
-
-.listing {
+.inputBox {
   border: 1px solid black;
-  height: 40px;
+  width: 100%;
+  background-color: rgba(136, 137, 138, 0.233);
+  height: 30px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.addButton {
+ width: 150px;
+ height: 30px;
+ background-color: rgba(27, 231, 27, 0.548);
+}
+.listItems {
+  border: 1px solid black;
+  width: 100%;
+  height: 30px;
+}
+.removeButton {
+  width: 150px;
+  height: 30px;
+  background-color: rgba(226, 69, 69, 0.438);
 }
